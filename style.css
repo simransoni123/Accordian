@@ -49,4 +49,17 @@ body {
     transition: 0.5s;
     height: 0;
 }
+.accordion .contentBx.active .content {
+    padding: 14px;
+    height: 180px;
+}
+.accordion .contentBx.active .title::before {
+    content: "-";
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+    color: #fff;
+}
 
